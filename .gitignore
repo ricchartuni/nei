@@ -1,0 +1,26 @@
+# = Padrao =============== #
+*.[oad]
+*.l[oad]
+*.mod
+*.bin
+*.su
+*.rsf
+*.rsf@
+*.vpl
+Fig/
+scr/
+bin/
+obj/
+log.*
+*.log
+*.out
+*.bkp
+*.pyc
+*.sw?
+.nfs*
+*~*
+\#*#
+.*~*
+# ====================fim= #
+01-modela
+ZZ2-tempo_fonte-fc30_dt2-neg.dat
