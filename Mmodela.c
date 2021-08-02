@@ -448,7 +448,7 @@ int main()
    {
       for (j = 0; j < ntotal; j++)
       {
-         fwrite(&sisT[i][j],sizeof(float),nx*ntotal,tiro);
+         fwrite(&sisT[i],sizeof(float),ntotal,tiro);
       }
    }
 #ifdef _DEBUG___
