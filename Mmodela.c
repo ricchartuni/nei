@@ -446,10 +446,7 @@ int main()
 
    for (i = 0;i < nx;i++)
    {
-      for (j = 0; j < ntotal; j++)
-      {
-         fwrite(&sisT[i],sizeof(float),ntotal,tiro);
-      }
+      fwrite(&sisT[i],sizeof(float),ntotal,tiro);
    }
 #ifdef _DEBUG___
    fprintf(stderr," OK\n");
